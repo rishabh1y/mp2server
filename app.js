@@ -2,7 +2,7 @@ import express, { urlencoded } from "express";
 import dotenv from "dotenv";
 import { connectPassport } from "./utils/Provider.js"
 // import session from "express-session";
-import session from "cookie-session";
+import session from "express-session";
 import cookieParser from "cookie-parser";
 import passport from "passport";
 import { errorMiddleware } from "./middlewares/errorMiddleware.js";
